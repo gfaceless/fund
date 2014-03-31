@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="43" selection-start="2264" selection-end="2264" vertical-scroll-proportion="7.733333" vertical-offset="2001" max-vertical-offset="3451">
+            <state line="4" column="26" selection-start="76" selection-end="76" vertical-scroll-proportion="0.15696888" vertical-offset="0" max-vertical-offset="3451">
               <folding />
             </state>
           </provider>
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="23" selection-end="23" vertical-scroll-proportion="0.037711315" vertical-offset="0" max-vertical-offset="769">
+            <state line="1" column="17" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="203">
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/css/main-ie8.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/fund_model.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -344,23 +344,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="43" selection-start="2264" selection-end="2264" vertical-scroll-proportion="7.733333" vertical-offset="2001" max-vertical-offset="3451">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/fund_model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="11" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="5539">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/funds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="77" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
           <folding />
         </state>
       </provider>
@@ -374,7 +360,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="23" selection-end="23" vertical-scroll-proportion="0.037711315" vertical-offset="0" max-vertical-offset="769">
+        <state line="1" column="17" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="203">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/funds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="77" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="76" selection-end="76" vertical-scroll-proportion="0.15696888" vertical-offset="0" max-vertical-offset="3451">
           <folding />
         </state>
       </provider>
