@@ -1,0 +1,131 @@
+div {
+    /*outline: 1px solid rgba(126,126,126,.5);*/
+}
+
+#main {
+    max-width: 1000px;
+    border: 1px solid #bbb;
+
+    padding-top: 40px;
+
+}
+.tab-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#search-funds {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+#common-funds{
+
+    border-right: 1px solid #ccc;
+}
+
+/*SECTION DETAILS*/
+#common-funds ul li {
+    list-style: none;
+    float: left;
+
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+}
+#common-funds .wrapper {
+    position: relative;
+    width: 100px;
+}
+
+#common-funds .subtitle {
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+}
+#common-funds button {
+    margin-top: 10px;
+}
+
+
+/*MY-FUNDS*/
+#my-funds ul {
+    margin: 0;
+    padding: 0;
+}
+#my-funds li{
+    list-style: none;
+    padding: 5px 20px 5px 0;
+    border-bottom: 1px dashed #cccccc;
+}
+#my-funds li:last-child{
+    border-bottom: none;
+}
+#my-funds li>span {
+    vertical-align: middle;
+    margin: 15px;
+    font-size: 20px;
+}
+#my-funds .img-container {
+    width: 50px;
+    height: 50px;
+}
+#my-funds .btn-toolbar {
+    font-size: 12px;
+}
+
+
+/* YIELD */
+#yield-result {
+    display: inline-block;
+}
+
+/* SLOT EFFECT*/
+.slot, .dot{
+    float: left;
+    margin: 5px;
+    padding: 0 10px;
+    height: 82px;
+    font-size: 25px;
+    font-size: 50px;
+
+}
+.slot {
+    width: 50px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    line-height: 93px;
+}
+.dot {
+    width: 25px;
+    font-weight: bold;
+
+}
+
+.slot .tooth{
+    height: 81px;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+/*modal*/
+#input-modal .name{
+    margin-right: 10px;
+}
+#input-modal input{
+    text-align: right;
+    width: 50px;
+}
+#input-modal .img-container {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}

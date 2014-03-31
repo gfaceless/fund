@@ -1,0 +1,11 @@
+#my-funds .img-container img{
+    width: 34px;
+    height: 34px;
+}
+
+#common-funds .subtitle{
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000)"; /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);   /* IE6 & 7 */
+    zoom: 1;
+}

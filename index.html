@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.0.custom.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/respond/dest/respond.min.js"></script>
+
+    <link rel="stylesheet" href="css/main-ie8.css"/>
+    <![endif]-->
+</head>
+<body>
+<div id="main" class="container center-block">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#yield" data-toggle="tab">今日收入</a></li>
+        <li><a href="#tmp" data-toggle="tab">我的基金</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="active tab-pane" id="yield">
+            <div class="container-fluid text-center">
+                <h3 class="text-center">今日收入</h3>
+                <div id="yield-result" class="clearfix"></div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tmp">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div id="search-funds">
+                        <form class="form-inline" role="form">
+                            <div class="form-group">
+                            <input type="text" placeholder="输入基金代码或名称" class="form-control"/>
+                            <button type="submit" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                            </div>
+                        </form>
+                        <div>
+                            <h3>搜索结果</h3>
+                            <ul></ul>
+                        </div>
+                    </div>
+
+                    <div id="common-funds" class="clearfix">
+                        <h3>常用</h3>
+                        <ul></ul>
+                    </div>
+                </div>
+
+
+                <div id="my-funds"  class="col-md-6">
+                    <h3>我的基金</h3>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>名称</th>
+                                <th>份数</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <button type="button" class="checkYield btn btn-primary pull-right">查看今日收入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal" id="input-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary save">保存</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/jquery-ui/ui/jquery.ui.core.js"></script>
+<script src="bower_components/jquery-ui/ui/jquery.ui.widget.js"></script>
+<script src="bower_components/jquery-ui/ui/jquery.ui.button.js"></script>
+<script src="bower_components/jquery-ui/ui/jquery.ui.spinner.js"></script>
+<script src="bower_components/jquery-ui/ui/jquery.ui.effect.js"></script>
+<!--<script src="bower_components/jquery-ui/ui/jquery-ui.custom.js"></script>-->
+<script src="js/jquery.mousewheel.js"></script>
+<!--store2 does not support ie6/7:-->
+<script src="bower_components/store/dist/store2.min.js"></script>
+<script src="data/funds.js"></script>
+<script src="js/fund_model.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
